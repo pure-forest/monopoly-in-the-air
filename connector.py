@@ -4,11 +4,11 @@ import time
 
 connectionstart = time.time()
 connection = mysql.connector.connect(
-    user="yutongd",
-    password="12345",
+    user="****",
+    password="****",
     host="mysql.metropolia.fi",
     port=3306,
-    database="yutongd",
+    database="****",
     connection_timeout=60,
     autocommit = True
 )
